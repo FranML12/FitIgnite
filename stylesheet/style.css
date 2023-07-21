@@ -1,0 +1,112 @@
+@charset "UTF-8";
+html {
+  height: 100%;
+  background-image: url("../assets/Image2.jpg");
+  background-size: cover;
+  background-position: center 0%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.bg-body-tertiary {
+  background-color: transparent !important;
+  z-index: 10;
+  padding-top: 50px;
+  padding-left: 60px;
+}
+.bg-body-tertiary > .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bg-body-tertiary > .container-fluid > .navbar-brand {
+  margin-right: auto;
+}
+.bg-body-tertiary > .container-fluid .navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+.bg-body-tertiary > .container-fluid .navbar-collapse .navbar-nav {
+  flex-direction: row;
+}
+.bg-body-tertiary > .container-fluid .navbar-collapse .nav-link {
+  color: white;
+  margin-right: 40px;
+  transition: 0.5s !important;
+}
+.bg-body-tertiary > .container-fluid .navbar-collapse .nav-link:hover {
+  color: rgb(214, 214, 214) !important;
+  transform: scale(1.2);
+}
+
+header {
+  color: white;
+}
+header h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+}
+header .container {
+  display: flex;
+  height: 100%;
+  padding-top: 30px;
+}
+header .container .right {
+  flex-grow: 1;
+}
+header .container .left {
+  position: relative;
+  width: 45%;
+  height: 50vh;
+}
+header .container .left .button-cta {
+  position: absolute;
+  left: 50%; /* Centrar horizontalmente en relación al contenedor padre */
+  transform: translateX(-50%); /* Ajustar la posición en el centro del borde inferior */
+  bottom: 0;
+}
+header .container .left .button-cta .btn-danger {
+  position: absolute;
+  left: 50%; /* Centrar horizontalmente en relación al contenedor padre */
+  transform: translateX(-50%); /* Ajustar la posición en el centro del borde inferior */
+}
+header .container .left p {
+  text-align: justify;
+}
+header .container .left h4 {
+  text-align: center;
+}
+header #carouselExample {
+  align-items: center;
+}
+header #carouselExample .carousel-inner .carousel-item {
+  align-items: center;
+  background-color: transparent;
+  text-align: center;
+}
+header #carouselExample .carousel-inner .carousel-item #trajectory {
+  align-items: center;
+}
+header #carouselExample .carousel-inner .carousel-item #trajectory .card-body {
+  align-items: center;
+}
+header #carouselExample .carousel-inner .carousel-item #trajectory .card-body .card-text {
+  width: 350px !important;
+}
+header #carouselExample .carousel-inner .carousel-item .card {
+  width: 18rem;
+  background-color: transparent;
+  color: white;
+}
+header #carouselExample .carousel-inner .carousel-item .card .card-body {
+  text-align: center;
+}
+header #carouselExample .carousel-inner .carousel-item .card .card-body .card-text {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

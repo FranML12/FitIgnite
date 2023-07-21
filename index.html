@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./stylesheet/style.css">
+</head>
+<body class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-fire" style="font-size: 30px; color: white;"></i>           
+                <span style="font-size: 30px; color: white;">FitIgnite</span>
+            </a>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="#">Contacto</a>
+                  <a class="nav-link" href="#">Servicios</a>
+                  <a class="nav-link" href="#">Nosotros</a>
+                </div>
+        </div>
+    </nav>
+    <header>
+        <!-- Titulo persuasivo (Uso de power words) titulo puede ser la promesa/lo que se va a conseguir con el producto o servicio -->
+        <!-- EJ: cc: Se vende servicio de coaching Posible titulo: Vuelve a sentirte conectado contigo mismo (parte mas emocional) -->
+        <h1>Mejora tu cuerpo, mejora tu vida</h1>
+        <div class="container">
+            <div class="right"></div>
+            <div class="left">
+                <!-- 
+                    Subtitulo puede ser una descripción de eso producto o servicio (algo mas específico) 
+                    Aprovechar par tocar punto de dolor 
+                -->
+                <!-- Ej: Seciones terapeuticas para conectar con tu interior -->
+                    <h4>El secreto para lograr el físico que deseas: Descubre el poder del Personal Training y Nutrición de Calidad ¡Ahora o nunca!</h4>
+                    <hr> 
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="container justify-content-center">
+                              <div class="row justify-content-center">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Clientes</h5>
+                                      <p class="card-text">Empresa en constante crecimiento, contamos con:</p>
+                                      <p id="contador" class="card-text">+<span id="numero">0</span> clientes satisfechos</p>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="container justify-content-center">
+                              <div class="row justify-content-center">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Testimonios</h5>
+                                      <p class="card-text">4.3☆ +1.5k reseñas</p>
+                                      <p class="card-text">"FitIgnite fue un gran asesor a la hora de trabajar en mi cuerpo. Logre bajar más de 10kg!" </p>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="container justify-content-center">
+                              <div class="row justify-content-center">
+                                  <div class="card" id="trajectory">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Trayectoria</h5>
+                                      <p class="card-text">Junto a la ayuda de nuestros profesionales con mas de 1 década de experiencia FitIgnite consiguió establecerse en el mercado siendo una de las empresas con mas resultados en el mundo del fitness.</p>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>                               
+                    <!-- Botón CTA -->
+                    <!-- Ej: ¡Demos juntos el primer paso!  -->
+                    <div class="button-cta">
+                      <h6>Que esperas? Deja de perder el tiempo!!</h6>
+                      <br>
+                      <button type="button" class="btn btn-danger btn-lg">Lo Quiero!</button>
+                    </div>
+            </div>
+        </div> 
+    </header>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

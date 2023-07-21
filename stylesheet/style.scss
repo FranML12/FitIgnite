@@ -1,0 +1,133 @@
+
+html {
+    height: 100%;
+    background-image: url('../assets/Image2.jpg');
+    background-size: cover;
+    background-position: center 0%;
+  }
+  
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .bg-body-tertiary {
+    background-color: transparent !important;
+    z-index: 10;
+    padding-top: 50px;
+    padding-left: 60px;
+  
+    > .container-fluid {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      > .navbar-brand {
+        margin-right: auto;
+      }
+  
+      .navbar-collapse {
+        display: flex;
+        justify-content: flex-end;
+  
+        .navbar-nav {
+          flex-direction: row;
+        }
+  
+        .nav-link {
+          color: white;
+          margin-right: 40px;
+          transition: .5s !important;
+
+          &:hover {
+            color: rgb(214, 214, 214) !important;
+            transform: scale(1.2)
+          }
+        }
+      }
+    }
+  }
+  
+  
+
+header {
+    color: white;
+    h1 {     
+        text: {
+            align: center;
+        }
+        font: {
+            weight: 800;
+            size: 50px;
+        }
+    }
+    .container {
+        display: flex;
+        height: 100%;
+        padding: {
+            top: 30px;
+        }
+        .right {
+            flex-grow: 1;
+        }
+        .left{
+            position: relative;
+            width: 45%;
+            height: 50vh;
+            .button-cta {
+              position: absolute;
+              left: 50%; /* Centrar horizontalmente en relación al contenedor padre */
+              transform: translateX(-50%); /* Ajustar la posición en el centro del borde inferior */
+              bottom: 0;
+              .btn-danger{
+                position: absolute;
+                left: 50%; /* Centrar horizontalmente en relación al contenedor padre */
+                transform: translateX(-50%); /* Ajustar la posición en el centro del borde inferior */
+              }
+            }
+            p {
+                text: {
+                    align: justify;
+                }
+            }
+            h4{
+                text: {
+                    align: center;
+                }
+            }
+        }
+      }
+      #carouselExample {
+        align-items: center;
+        .carousel-inner {
+          .carousel-item {
+            align-items: center;
+            background-color: transparent;
+            text-align: center;
+            #trajectory {
+              align-items: center;
+              .card-body {
+                align-items: center;
+                .card-text {
+                  width: 350px !important;
+                }
+              }
+            }
+            .card {
+              width: 18rem;
+              background-color: transparent;
+              color: white;
+              .card-body {
+                text-align: center;
+                .card-text {
+                    text-align: center;
+                }
+              }
+            }
+          }
+        }
+      }
+      
+}
